@@ -1,16 +1,4 @@
 {
-  "name": "interactive-syntax",
-  "version": "1.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeifAndersen/interactive-syntax-clojure.git"
-  },
-  "author": "Leif Andersen",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/LeifAndersen/interactive-syntax-clojure/issues"
-  },
-  "homepage": "https://github.com/LeifAndersen/interactive-syntax-clojure#readme",
   "devDependencies": {
     "css-loader": "^4.3.0",
     "file-loader": "^6.1.0",
@@ -20,7 +8,6 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "@cljs-oss/module-deps": "^1.1.1",
-    "@stopify/stopify": "^0.7.2"
+    "@cljs-oss/module-deps": "^1.1.1"
   }
 }
