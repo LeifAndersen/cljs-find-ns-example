@@ -8,7 +8,6 @@
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.773"]
                  ;;[org.clojure/clojurescript "1.10.741"]
-                 [reagent "0.10.0" :exclusions [cljsjs/react cljsjs/react-dom]]
                  [org.clojure/tools.reader "1.3.3"]]
 
   :plugins [[lein-cljsbuild "1.1.7"]
@@ -28,9 +27,9 @@
              :css-dirs ["public/css"]}
 
   :cljsbuild {:builds {:app
-                       {:source-paths ["src" "env/dev/cljs"]
+                       {:source-paths ["src"]
                         :compiler
-                        {:main "interactive-syntax.dev"
+                        {:main "interactive-syntax.core"
                          :output-to "public/js/development/app.js"
                          :output-dir "public/js/development"
                          :asset-path   "js/development"
