@@ -30,11 +30,10 @@
                          :target :bundle
                          :bundle-cmd
                          {:none ["npx" "webpack" "--mode=development"
-                                 "src/js/bundle.js" "public/js/development/app.js"
+                                 "public/js/development/app.js"
                                  "--output-path" "public/js"
                                  "--output-filename" "main.js"]
                           :default ["npx" "webpack" "--mode=production"
-                                    "src/js/bundle.js"
                                     "public/js/development/app.js"
                                     "--output-path" "public/js"
                                     "--output-filename" "main.js"]}
