@@ -4,4 +4,3 @@
 
 (eval-str (empty-state) "(+ 1 2)" "UNTITLED" {:eval js-eval} println)
 
-
